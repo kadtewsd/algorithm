@@ -60,5 +60,6 @@ pub fn insert_sort() {
         }
         rate[(j + 1) as usize] = current;
     }
+    println!("insert sort is completed...");
     println!("{:#?}", rate);
 }
